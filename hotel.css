@@ -1,0 +1,200 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+
+}
+body{
+
+    width:100%;
+    font-family: "Noto Sans", sans-serif;
+
+}
+.logo{
+    text-decoration: underline !important;
+}
+
+.icon-link{
+    color:black !important;
+    text-decoration: none;
+    
+}
+#nav-main{
+    background-color: white !important;
+    box-shadow: 5px 5px 15px lightgray;
+}
+.navbar{
+    padding:10px !important;
+    font-size: 1.1rem;
+    font-weight: bold;
+    position:sticky;
+    top:0;
+    left:0;
+    z-index: 100;
+    
+}
+#navbarText{
+    margin-left:500px !important;
+}
+.nav-item{
+    padding-left:27px;
+
+}
+.section1,.section2,.section3,.section4{
+    width:80%;
+    margin:auto;
+    background-color:white;
+    padding:20px;
+    border-bottom:3px solid rgb(239, 237, 237);
+    
+}
+.flex-images{
+    display:grid;
+    grid-auto-flow: column;
+    padding:70px;
+    text-align: center;
+   
+   
+    
+}
+.flex-images2{
+    display:grid;
+    grid-auto-flow: column;
+    padding:70px;
+    text-align: center;
+    overflow: auto;
+   
+   
+    
+}
+.flex-images3{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    padding:70px;
+    
+   
+   
+    
+}
+.explorebtn,.explorebtn2{
+    font-size: 1.3rem;
+}
+.expbtn{
+    padding:20px;
+    width:500px;
+    border:1px solid rgb(219, 215, 215);
+    background-color:white;
+    border-radius: 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.explore{
+    margin-top:50px;
+    display:flex;
+    justify-content: space-around;
+}
+.section4{
+    padding-bottom:100px;
+
+}
+.section1-head{
+    font-weight: bolder;
+    font-size: 1.7rem;
+}
+.section4-head{
+    font-weight: bolder;
+    font-size: 1.7rem;
+}
+.cuisines{
+    display:block;
+}
+.flexlist img{
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+}
+.res1,.res2,.res3,.res4,.res5,.res6{
+    width:350px;
+    height:200px;
+    background-color: rgb(21, 162, 162);
+    margin-right:20px;
+    border-radius: 15px;
+    position:relative;
+}
+.resnew1,.resnew2,.resnew3,.resnew4,.resnew5,.resnew6{
+    width:250px;
+    height:150px;
+    background-color: rgb(21, 162, 162);
+    margin-right:25px;
+    border-radius: 15px;
+    position:relative;
+}
+.resnewimg{
+    width:300px;
+    height:150px;
+    border-radius:15px;
+    filter: brightness(80%);
+
+}
+.resimg{
+    width:350px;
+    height:200px;
+    border-radius:15px;
+    filter: brightness(80%);
+    
+}
+.cuisine{
+    position:absolute;
+    top:150px;
+    left:60px;
+    margin:auto;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+.cuisinenew{
+    position:absolute;
+    letter-spacing: 2px;
+    top:80px;
+    left:30px;
+    margin:auto;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+.flexlist2{
+    line-height: 10px;
+    text-align: center;
+}
+.flexlist3{
+    line-height: 5px;
+    text-align: center;
+}
+.restitle,.resduration{
+    font-weight: bold;
+}
+.btn{
+    border:1px solid grey !important;
+    padding:10px !important;
+    margin-right:30px;
+    border-radius: 20px !important;
+
+}
+.footer{
+    background-color: black;
+    padding:50px;
+    text-align: center;
+    display:flex;
+    color:rgb(127, 123, 123);
+    justify-content: space-around;
+    font-size: 1rem !important;
+    font-weight: bold;
+}
+footer h4{
+    color:white;
+}
